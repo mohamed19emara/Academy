@@ -1,0 +1,88 @@
+/* الأساسيات */
+.recommended-resources {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.categories button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.categories button:hover {
+  background-color: #0056b3;
+}
+
+.resources-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.resource-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+}
+
+.resource-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.resource-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.resource-link:hover {
+  background-color: #218838;
+}
+
+/* استجابة للأجهزة الصغيرة */
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .resource-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .resource-card {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .categories button {
+    padding: 8px 15px;
+  }
+}

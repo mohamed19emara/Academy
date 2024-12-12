@@ -1,0 +1,69 @@
+/* Footer Styling */
+.footer {
+    background-color: #f8f9fa;
+    color: #333;
+    border-top: 1px solid #ddd;
+    direction: rtl; /* يجعل النصوص باللغة العربية */
+  }
+  
+  .footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #0056b3;
+  }
+  
+  .footer ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .footer ul li a:hover {
+    color: #0056b3;
+  }
+  
+  .footer .social-icons a {
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+  }
+  .social-icons{
+    margin: 0 40px;
+  }
+  .footer .social-icons a:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer hr {
+    border-color: #ddd;
+    margin: 20px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  /* تحسين استجابة الهواتف المحمولة */
+  @media (max-width: 768px) {
+    .footer h5 {
+      text-align: center;
+    }
+  
+    .footer ul {
+      text-align: center;
+    }
+  
+    .footer .social-icons {
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,64 @@
+/* التنسيق الأساسي */
+.line-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f4f4f9;
+  margin: 10px 40px;
+}
+
+.nav-links, .user-actions {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li, .user-actions li {
+  display: inline-block;
+}
+
+.logout-button, .auth-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* التغييرات لشاشات الموبايل */
+@media (max-width: 768px) {
+  .line-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links, .user-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links li, .user-actions li {
+    margin-bottom: 10px;
+  }
+
+  .logout-button, .auth-link {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .line-container {
+    padding: 5px;
+  }
+
+  .nav-links, .user-actions {
+    gap: 10px;
+  }
+
+  .logout-button, .auth-link {
+    font-size: 14px;
+  }
+}

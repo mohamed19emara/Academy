@@ -1,0 +1,14 @@
+/* التخصيصات */
+.custom-card {
+  border-radius: 10px; /* تقويس الحواف */
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 15px; /* إضافة حشو داخلي */
+}
+
+button {
+  font-size: 14px; /* تعديل حجم الخط للزر */
+  padding: 10px;
+}

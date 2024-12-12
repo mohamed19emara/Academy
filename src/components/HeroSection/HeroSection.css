@@ -1,0 +1,94 @@
+/* App.css */
+
+/* تنسيق الصفحة */
+.about-container {
+    padding: 20px;
+  }
+  
+  .hero {
+    background-color: #ffdd00;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .content {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+  .target {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+  }
+  
+  .target .service {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .target h3 {
+    font-size: 1.5rem;
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  .target p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .cta {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .cta p {
+    font-size: 1.2rem;
+  }
+  
+  /* استجابة لشاشات صغيرة */
+  @media (max-width: 768px) {
+    .target {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .target .service {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+  }
+  
