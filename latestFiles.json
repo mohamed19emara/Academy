@@ -1,0 +1,22 @@
+[
+    {
+      "title": "دليل المعلم لرياض الأطفال",
+      "description": "ملف شامل يوضح طرق التدريس لرياض الأطفال.",
+      "image": "./3.jpg",
+      "link": "https://mrsasmaa.com/?wpdmpro=%d9%85%d8%b9%d9%8a%d8%a7%d8%b1-%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9-%d8%b1%d8%a8%d8%b7-%d8%a7%d9%84%d9%84%d8%ba%d8%a9-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9-%d8%a8%d8%a7"
+    },
+    {
+      "title": "خطة دروس اللغة العربية",
+      "description": "خطة تعليمية لتنظيم دروس اللغة العربية.",
+      "image": "./2.jpg",
+      "link": "https://example.com/file2"
+    },
+    {
+      "title": "أفكار إبداعية للمعلمين",
+      "description": "أفكار جديدة لدعم العملية التعليمية.",
+      "image": "./1.jpg",
+      "link": "https://example.com/file3"
+    }
+    
+  ]
+  

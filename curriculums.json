@@ -1,0 +1,63 @@
+[
+    {
+      "grade": "الصف الأول",
+      "title": "منهج الصف الأول الإماراتي",
+      "file": "/files/first-grade.pdf"
+    },
+    {
+      "grade": "الصف الثاني",
+      "title": "منهج الصف الثاني الإماراتي",
+      "file": "/files/second-grade.pdf"
+    },
+    {
+      "grade": "الصف الثالث",
+      "title": "منهج الصف الثالث الإماراتي",
+      "file": "/files/third-grade.pdf"
+    },
+    {
+      "grade": "الصف الرابع",
+      "title": "منهج الصف الرابع الإماراتي",
+      "file": "/files/fourth-grade.pdf"
+    },
+    {
+      "grade": "الصف الخامس",
+      "title": "منهج الصف الخامس الإماراتي",
+      "file": "/files/fifth-grade.pdf"
+    },
+    {
+      "grade": "الصف السادس",
+      "title": "منهج الصف السادس الإماراتي",
+      "file": "/files/sixth-grade.pdf"
+    },
+    {
+      "grade": "الصف السابع",
+      "title": "منهج الصف السابع الإماراتي",
+      "file": "/files/seventh-grade.pdf"
+    },
+    {
+      "grade": "الصف الثامن",
+      "title": "منهج الصف الثامن الإماراتي",
+      "file": "/files/eighth-grade.pdf"
+    },
+    {
+      "grade": "الصف التاسع",
+      "title": "منهج الصف التاسع الإماراتي",
+      "file": "/files/ninth-grade.pdf"
+    },
+    {
+      "grade": "الصف العاشر",
+      "title": "منهج الصف العاشر الإماراتي",
+      "file": "/files/tenth-grade.pdf"
+    },
+    {
+      "grade": "الصف الحادي عشر",
+      "title": "منهج الصف الحادي عشر الإماراتي",
+      "file": "/files/eleventh-grade.pdf"
+    },
+    {
+      "grade": "الصف الثاني عشر",
+      "title": "منهج الصف الثاني عشر الإماراتي",
+      "file": "/files/twelfth-grade.pdf"
+    }
+  ]
+  

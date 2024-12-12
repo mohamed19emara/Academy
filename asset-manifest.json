@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Academy/static/css/main.a09f0168.css",
+    "main.js": "/Academy/static/js/main.962a3737.js",
+    "static/media/2.jpg": "/Academy/static/media/2.4b2162ae09043480addb.jpg",
+    "index.html": "/Academy/index.html",
+    "main.a09f0168.css.map": "/Academy/static/css/main.a09f0168.css.map",
+    "main.962a3737.js.map": "/Academy/static/js/main.962a3737.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a09f0168.css",
+    "static/js/main.962a3737.js"
+  ]
+}
